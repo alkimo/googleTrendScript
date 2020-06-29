@@ -2,5 +2,4 @@
 google-trend/
 service_account.json
 __pycache__/
-CSVSearchResults/*
 emailData.py
