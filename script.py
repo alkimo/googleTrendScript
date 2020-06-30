@@ -1,8 +1,8 @@
 from pytrends.request import TrendReq
 import string
-import parseInput
-import setSearchResult
-import csvCore
+from Modules import parseInput
+from Modules import setSearchResult
+from Modules import csvCore
 import os
 from datetime import datetime
 
@@ -18,7 +18,7 @@ pytrend.build_payload(kw_list=keyword_list, cat = args.cat, timeframe = args.tim
 
 searchResultList = setSearchResult.getAllSearches(pytrend)
 
-csvPath = os.getcwd() + '/CSVSearchResults/'
+csvPath = os.getcwd() + '/savedSearches/'
 thisSearchDir = csvPath + title + '-' + datetime.now().strftime("%d") + '-' + datetime.now().strftime("%m") + '-' + datetime.now().strftime("%Y") + '-' + datetime.now().strftime("%X")
 os.mkdir(thisSearchDir)
 
