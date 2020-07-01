@@ -1,5 +1,3 @@
 .vscode
 google-trend/
-service_account.json
 __pycache__/
-emailData.py
