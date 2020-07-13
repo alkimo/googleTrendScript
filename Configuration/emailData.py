@@ -1,1 +1,1 @@
-email = 'thiago.filipe.python@gmail.com'
+email = 'myProperConfiguredEmail@gmail.com'
