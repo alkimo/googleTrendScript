@@ -52,3 +52,13 @@ $ source env/bin/activate
 > Add email configured with the proper google drive permissions 
 
 ![GIF](https://i.ibb.co/B3dQ1PH/ezgif-com-video-to-gif-1.gif)
+
+### Run test
+
+> Example: Search for COVID, VACCINE and TRUMP on America
+```shell
+# First you run the virtual env
+$ source /env/bin/activate
+# Now you run the script
+(env) $ python3 script.py -a "COVID" -b "VACCINE" -c "TRUMP" -g "US"
+```
