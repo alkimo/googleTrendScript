@@ -58,7 +58,7 @@ $ source env/bin/activate
 > Example: Search for COVID, VACCINE and TRUMP on America
 ```shell
 # First you run the virtual env
-$ source /env/bin/activate
+$ source env/bin/activate
 # Now you run the script
 (env) $ python3 script.py -a "COVID" -b "VACCINE" -c "TRUMP" -g "US"
 ```
